@@ -41,6 +41,9 @@
 .timeline-card-primary {
   border-left-color: #4A89DC; }
 
+.timeline-card-warning {
+  border-left-color: #f89e37; }
+
 .timeline-card-primary:before {
   border-color: #4A89DC; }
 
