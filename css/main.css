@@ -145,3 +145,13 @@ footer a:not(.nav-link) {
   .page-break {
     padding-top: 5rem;
     page-break-before: always; } }
+
+.modal-img {
+  width: 100%;  /* This will make the image 1.5 times larger */
+  height: auto; /* This will maintain the aspect ratio of the image */
+}
+
+.modal-dialog {
+  width: auto;    /* This will allow the dialog to expand to accommodate the larger image */
+  max-width: 90%; /* This will prevent the dialog from becoming too large */
+}

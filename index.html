@@ -157,21 +157,31 @@
                     <div class="collapse ms-3" id="detail_SUM">
                       <ul class="list-group">
                         <li class="list-group-item">
-                          <div class="col align-self-end">
-                            <img src="./images/DASHBOARD_CV.png" class="img-thumbnail" alt="dahsboard" style="width: 100%; object-fit: contain;">
+                          <div class="col align-self-end" role="button">
+                            <img src="./images/DASHBOARD_CV.png" class="img-thumbnail" alt="dahsboard" style="width: 100%; object-fit: contain;" data-bs-toggle="modal" data-bs-target="#imageModal">
                           </div>
                         </li>
                       </ul>
                     </div>
                   </div>
                 </div>
-
               </div>
-
             </div>
 
         </div>
-
+        <!-- Modal -->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="./images/DASHBOARD_CV.png" class="modal-img" alt="dahsboard">
+              </div>
+            </div>
+          </div>
+        </div>
 
 
         <hr class="d-print-none" />
