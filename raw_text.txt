@@ -1,0 +1,51 @@
+
+Hello! I’m Pierre Gonzalez. I am passionate about leveraging data using banking automation.
+I am a skilled developer and love to learn new Technologies.
+
+
+---1
+Technical/Data/Business Analyst at Mirbaud 
+In a core banking migration project, I developed the ETL workflow architecture while simultaneously creating a monitoring framework utilizing Azure and Power BI for comprehensive oversight.
+Tasks:  
+Developed the data extraction process utilizing SQL queries within Talend.
+Established the data mapping between source and target models, and led workshops with Subject Matter Experts to create a comprehensive Data Mapping Sheet (DMS, in csv/excel format).
+Crafted the data transformation stage using DMS and Talend components, ensuring proper data combination, splitting, and transcoding to fit the target system's model.
+Implemented the data loading phase employing Talend, GoAnyWhere, and Azure Blob Storage.
+Developed a monitoring report leveraging Power BI and SQL databases (including design and queries) to facilitate report generation.
+Additionally, meticulously documented all mappings, queries, and technical specifications within Confluence.
+
+---2
+BPMN Developer/Business Analyst at BCGE 
+Tasks: 
+Employing Agile methodologies for a retail bank, I facilitated the digitization of banking workflows with Appway, encompassing Client Onboarding and Rental Guarantee processes.
+                     
+Executed the definition phase with a focus on UX-workflow, collaborating with business stakeholders in rapid Agile sprints.
+Developed comprehensive Appway workflows and integrated them with various REST services and databases.
+Documented processes and workflows using Confluence for future reference and collaboration.
+Managed Jira incidents related to BPMN workflows by investigating and resolving bugs.
+Created a development application with Appway to improve code review, quality, debugging, and support for live workflows.
+                      
+---3
+BPMN Developer/Support at UBP
+Within a private banking context, I facilitated the digitization and maintenance of banking procedures using Appway for workflows such as Client Onboarding, Rental Guarantee, and Credit Request.
+Tasks:
+Served as the primary point of contact for Client Onboarding workflow management.
+Addressed and resolved live bugs under pressure during active Client Onboarding processes with clients.                        
+Developed an Appway application to significantly reduce SLA for support, incorporating statistical reports on issue tracking.
+                      
+---4
+Developer INFRA at SmartWave
+Tasks: 
+Successfully migrated from Oracle Service Bus to Axway, an API gateway solution.
+Transitioned a repository from SVN to Git, utilizing Bitbucket as the hosting platform.
+
+---5
+Front/Back End developer at MAIF
+In a mobile-first housing insurance project featuring a ChatBot-like UX, I developed the front-end using ReactJS and the back-end leveraging Java microservices architecture (Spring Boot).<span
+Tasks:                 
+Created multiple proof-of-concept demonstrations to showcase technical capabilities to the UX team.                     
+Developed an ecosystem of APIs (Java microservices) to support application workflows, such as existing client subscriptions, estimation requests, and client onboarding.
+Employed technologies including Docker, Linux, MongoDB, and Git in the project, which was managed under Agile governance.
+                      
+
+Skills : Python, data science libraries (scikit-learn, pandas, numpy ...),SQL,ETL Talend,Power Bi, DAX, PowerQuery,GoAnyWhere,Java,BPMN Appway,Azure
