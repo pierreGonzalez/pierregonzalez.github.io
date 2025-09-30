@@ -48,7 +48,7 @@
   border-color: #4A89DC; }
 
 .timeline-card-primary:after {
-  background-color: #4A89DC; }
+  background-color: #3bafda; }
 
 .timeline-card-success {
   border-left-color: #37BC9B; }
@@ -84,7 +84,7 @@ html {
   border-radius: 10px; }
 
 .cover-bg {
-  background-color: #4A89DC;
+  background-color: #3bafda;
   background-image: url(../images/alpes.jpeg);
   background-position: left top;
   background-repeat: no-repeat;
