@@ -1,0 +1,16 @@
+{
+  "name": "pierregonzalez-cv",
+  "private": true,
+  "description": "Dev tooling only for the static CV site. Nothing here ships to GitHub Pages.",
+  "scripts": {
+    "lint": "html-validate index.html",
+    "links": "linkinator index.html --skip \"^https?://(?!localhost)\"",
+    "check": "npm run lint && npm run links",
+    "serve": "http-server . -p 8080 -c-1"
+  },
+  "devDependencies": {
+    "html-validate": "^9.0.0",
+    "http-server": "^14.1.1",
+    "linkinator": "^6.1.0"
+  }
+}
