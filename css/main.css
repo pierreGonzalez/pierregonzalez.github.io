@@ -155,3 +155,23 @@ footer a:not(.nav-link) {
   width: auto;    /* This will allow the dialog to expand to accommodate the larger image */
   max-width: 90%; /* This will prevent the dialog from becoming too large */
 }
+/* Accessible muted text (WCAG AA on white) */
+.text-muted { color: #5c636a !important; }
+
+/* Career strip */
+.career-strip { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; }
+.career-strip li { flex: 1 1 160px; border-left: 3px solid #404040; padding-left: .75rem; }
+.career-years { display: block; font-weight: 700; }
+.skill-groups .badge { font-weight: 500; margin-bottom: .25rem; }
+
+/* No click focus highlight on expand areas (keyboard focus ring kept) */
+a[data-bs-toggle="collapse"]:focus:not(:focus-visible) { outline: none; box-shadow: none; }
+.list-group-item-action[data-bs-toggle="collapse"]:focus:not(:focus-visible) { background-color: transparent; }
+
+/* EN/FR toggle */
+.lang-toggle .btn { min-width: 2.5rem; font-weight: 600; transition: none; }
+.lang-toggle .btn:focus:not(:focus-visible) { outline: none; box-shadow: none; }
+.lang-toggle .btn.active { background-color: #404040; border-color: #404040; color: #fff; }
+.lang-toggle .btn:hover,
+.lang-toggle .btn:focus,
+.lang-toggle .btn:active { transform: none; }

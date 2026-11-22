@@ -1,0 +1,7 @@
+# Pierre Gonzalez
+
+> Banking workflow engineer and AI-native builder based in Switzerland. 10+ years building software for Swiss banks and insurers (Appway BPMN workflows, Talend/Azure data migration), now building products with AI-assisted development.
+
+- [CV](https://pierregonzalez.github.io/): experience, skills, education
+- [LinkedIn](https://www.linkedin.com/in/pierre-gonzalez-switzerland)
+- [Seize Your Time](https://seizeyourtime.life): AI-powered life-goal planner (side project)
