@@ -7,8 +7,8 @@ Agents: only claims listed here may appear on the CV. `Verified` = confirmed by 
 |---|---|---|---|
 | Oct 2023 – present | BPMN Developer / Technical Analyst / Support | UBP (private banking) | Appway. Contracting entity? `?` |
 | Mar 2022 – Oct 2023 | Technical / Data / Business Analyst | Mirabaud (private banking) | Core banking migration, Talend, Azure, Power BI |
-| Oct 2020 – Mar 2022 | BPMN Developer / Business Analyst | BCGE (retail banking) | Agile, Appway |
-| Jan 2019 – Oct 2020 | BPMN Developer / Support | UBP (private banking) | Client Onboarding |
+| Oct 2020 – Mar 2022 | BPMN Developer / Business Analyst | BCGE (retail banking), via Serial | Verified: development of new workflows for the bank. Agile, Appway |
+| Jan 2019 – Oct 2020 | BPMN Developer / Support | UBP (private banking), via IBM CIC | Verified: helped Front/Middle/Back Office adopt new workflows (training, explaining usage, continuous improvement) |
 | Mar 2018 – Dec 2018 | Developer INFRA | SmartWave | OSB → Axway, SVN → Git/Bitbucket |
 | Sep 2015 – Feb 2018 | Front/Back End developer | MAIF (insurance) | React, Spring Boot, Docker, MongoDB |
 | Aug 2025 – present | Founder, Seize Your Time (side project) | — | https://seizeyourtime.life |
@@ -42,6 +42,6 @@ Agents: only claims listed here may appear on the CV. `Verified` = confirmed by 
 Jorge Martinez (Mirabaud), Vladut Valeanu (UBP/BCGE), Edward Maertens (IBM CIC, 2019–2021).
 
 ## Open questions for Pierre
-1. Were UBP/BCGE missions done through IBM CIC? (Edward's reference says so; the roles don't mention IBM.)
+1. ~~IBM CIC / Serial~~ Resolved: UBP 2019-20 via IBM CIC; BCGE via Serial. Still open: contracting entity for UBP 2023-present.
 2. Which metrics can you stand behind in an interview?
 3. What AI-assisted tools do you use daily (Claude Code, Copilot…) and for what — see CONTENT-SUGGESTIONS.

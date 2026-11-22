@@ -72,3 +72,14 @@ Group Education into **Degree** and **Continuing education**; move the Appway tr
 4. "How I build with AI" section + SYT case study (P1d–e)
 5. Outcome-first rewrite of each role after you confirm metrics (P1a, P1f)
 6. PDF export + Lighthouse CI (P2)
+
+## Implementation status
+**Done:** privacy (address, phone, age/DOB script removed), typos, title/meta/OG/JSON-LD/favicon, headline + summary, career strip, "How I build with AI" section, skills as grouped tags, languages as text, IBM CIC / Serial context, text-muted contrast, robots.txt, sitemap.xml, llms.txt, template leftovers removed.
+
+**Still needs Pierre (facts or assets):**
+- Confirm or soften the metrics listed in `docs/cv-facts.md` before rewriting roles outcome-first (P1a, P1f).
+- Real SYT traction, screenshot/GIF and case-study details (P1e).
+- Venture Lab course date for the Education section; IELTS test date.
+- Whether the Columbia transcript (`diplomas/grade Columbia.pdf`) should stay public; the old DOB remains in git history.
+- Contracting entity for UBP 2023–present.
+- PDF export, Lighthouse CI and `data/cv.json` (P2) are not started.

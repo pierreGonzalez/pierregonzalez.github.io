@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pierregonzalez.github.io/sitemap.xml
