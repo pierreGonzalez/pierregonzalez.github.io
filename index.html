@@ -82,7 +82,13 @@
         <div class="about-section pt-4 px-3 px-lg-4 mt-1">
           <div class="row">
             <div class="col-md-6">
-              <h2 class="h3 mb-3">About Me</h2>
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 class="h3 mb-0">About Me</h2>
+                <div class="btn-group btn-group-sm lang-toggle d-print-none" role="group" aria-label="Language">
+                  <button type="button" class="btn btn-outline-secondary active" data-lang="en" aria-pressed="true">EN</button>
+                  <button type="button" class="btn btn-outline-secondary" data-lang="fr" aria-pressed="false">FR</button>
+                </div>
+              </div>
               <p>8+ years building software for Swiss banks and insurers: from Appway BPMN client-onboarding workflows to
                 Talend/Azure core-banking data migration. I now build with AI-assisted development (Claude Code, OpenAI
                 API) and run my own product, Seize Your Time.</p><br>
@@ -1022,6 +1028,8 @@
   <script src="scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
   <script src="scripts/aos.js?ver=1.2.0"></script>
   <script src="scripts/main.js?ver=1.2.0"></script>
+  <script src="scripts/i18n-fr.js?ver=1.2.0"></script>
+  <script src="scripts/i18n.js?ver=1.2.0"></script>
 </body>
 
 </html>

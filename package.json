@@ -5,8 +5,9 @@
   "scripts": {
     "lint": "html-validate index.html",
     "links": "linkinator index.html --skip \"^https?://(?!localhost)\"",
-    "check": "npm run lint && npm run links",
-    "serve": "http-server . -p 8080 -c-1"
+    "check": "npm run lint && npm run links && npm run i18n",
+    "serve": "http-server . -p 8080 -c-1",
+    "i18n": "node scripts/check-i18n.mjs"
   },
   "devDependencies": {
     "html-validate": "^9.0.0",

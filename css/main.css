@@ -167,3 +167,11 @@ footer a:not(.nav-link) {
 /* No click focus highlight on expand areas (keyboard focus ring kept) */
 a[data-bs-toggle="collapse"]:focus:not(:focus-visible) { outline: none; box-shadow: none; }
 .list-group-item-action[data-bs-toggle="collapse"]:focus:not(:focus-visible) { background-color: transparent; }
+
+/* EN/FR toggle */
+.lang-toggle .btn { min-width: 2.5rem; font-weight: 600; transition: none; }
+.lang-toggle .btn:focus:not(:focus-visible) { outline: none; box-shadow: none; }
+.lang-toggle .btn.active { background-color: #404040; border-color: #404040; color: #fff; }
+.lang-toggle .btn:hover,
+.lang-toggle .btn:focus,
+.lang-toggle .btn:active { transform: none; }

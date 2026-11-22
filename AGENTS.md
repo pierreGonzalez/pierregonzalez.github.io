@@ -13,6 +13,7 @@ It was started from a purchased "OnlineResume" template; `README.txt` is leftove
 |---|---|
 | `index.html` | The whole CV (header, about, side project, experience, skills, education, references) |
 | `css/main.css`, `css/site.css`, `css/print.css` | Site styles. `bootstrap*.css`, `aos.css`, `font-awesome/` are vendored — **do not edit** |
+| `scripts/i18n.js`, `scripts/i18n-fr.js` | EN/FR toggle. English text lives in `index.html`; French in `i18n-fr.js`, keyed by the exact English text. **Any English text change needs a matching FR entry** (`npm run i18n` enforces it) |
 | `scripts/main.js` | Site JS (age calc, hover/collapse tweaks). `bootstrap.bundle.min.js`, `aos.js` are vendored — **do not edit** |
 | `images/`, `images/icon/` | Avatar, reference photos, tech logos |
 | `diplomas/`, `documents/`, `syllabus/` | PDFs linked from the Education/Skills sections |
@@ -25,7 +26,8 @@ It was started from a purchased "OnlineResume" template; `README.txt` is leftove
 npm install          # once (dev tools only; nothing ships from node_modules)
 npm run lint         # html-validate on index.html
 npm run links        # check internal links/assets resolve
-npm run check        # lint + links  (run before every commit)
+npm run i18n         # every English text node has a French entry
+npm run check        # lint + links + i18n  (run before every commit)
 npm run serve        # local preview at http://localhost:8080
 ```
 
